@@ -1,2 +1,2 @@
-# contactList2
+# contactList
 MEAN stack contactList
