@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
  var mongojs = require('mongojs');
+ mongojs.connect('mongodb://admin:admin@ds145677.mlab.com:45677/contactlistbyfaheel');
  var db = mongojs('contactlist', ['contactlist']);
 var bodyParser = require('body-parser');
 
